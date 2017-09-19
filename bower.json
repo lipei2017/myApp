@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "pli <lipei2017@foxmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lipei2017/myapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "^2.1.3",
+    "normalize-css": "^4.2.0",
+    "angular-ui-router": "^0.3.1"
+  }
+}

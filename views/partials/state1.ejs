@@ -1,0 +1,11 @@
+<h1>State 1</h1>
+<hr/>
+<a ui-sref="state1.list">Show List</a>
+<div class="parent" ng-controller="MainCtrl">
+    <div class="line">
+        Name inside parent scope is: <strong>{{name}}</strong>
+        <!--<input type="button" ng-click="reverseName()" value="Reverse name" />-->
+    </div>
+    <div class="directive" my-directive></div>
+</div>
+<div ui-view></div>
